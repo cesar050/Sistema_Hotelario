@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.12 (djangoProject)" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (djangoProject)" project-jdk-type="Python SDK" />
+=======
+    <option name="sdkName" value="Python 3.12 (GestionHotelera)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.12 (proyectoBrazo)" project-jdk-type="Python SDK" />
+>>>>>>> f08e6ff9ab6d9039e0de9d32ece98b806d4ebc75
 </project>
