@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Sistema_Hotelario.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/templates/BASE/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/templates/Contactenos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/templates/Habitaciones.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/templates/Servicios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/BASE/Base.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/templates/BASE/Base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,40 +24,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MarcoChBuri"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MarcoChBuri&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cesar050/Sistema_Hotelario.git",
-    "accountId": "c31f7123-5ed2-4be5-a3f3-c214f82b1f8a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cesar050/Sistema_Hotelario.git&quot;,
+    &quot;accountId&quot;: &quot;c31f7123-5ed2-4be5-a3f3-c214f82b1f8a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hG8CRhomHmr8cXrKxmzVsS3yfZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Marco",
-    "last_opened_file_path": "D:/PROGRAMACION/Sistema_Hotelario",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Marco&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PROGRAMACION/Sistema_Hotelario&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\templates" />
@@ -88,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717208925502</updated>
       <workItem from="1717208926559" duration="1319000" />
+      <workItem from="1717211697147" duration="1677000" />
     </task>
     <servers />
   </component>
