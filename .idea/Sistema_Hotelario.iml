@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+<<<<<<< HEAD
+=======
+  <component name="FacetManager">
+    <facet type="django" name="Django">
+      <configuration>
+        <option name="rootFolder" value="$MODULE_DIR$" />
+        <option name="settingsModule" value="SistemaHotel/SistemaHotel" />
+        <option name="manageScript" value="SistemaHotel/manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+        <option name="doNotUseTestRunner" value="false" />
+        <option name="trackFilePattern" value="" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/SistemaHotel" />
+    <orderEntry type="jdk" jdkName="Python 3.12 (Sistema_Hotelario)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+>>>>>>> feature/modelClass
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
     <option name="myDocStringFormat" value="Plain" />
   </component>
   <component name="TemplatesService">
+<<<<<<< HEAD
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/SistemaHotel/templates" />
       </list>
     </option>
+=======
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+>>>>>>> feature/modelClass
   </component>
 </module>
