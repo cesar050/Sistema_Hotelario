@@ -67,5 +67,16 @@ class Habitacion(models.Model):
     def __str__(self):
         return f"{self.numero} {self.capacidad} {self.piso}"
 
+
 class PisoAdmin(admin.ModelAdmin):
     exclude = ('cantidad_habitaciones',)
+
+
+class ConogramaReserva(models.Model):
+    fecha_entrada = models.DateField()
+    fecha_salida = models.DateField()
+    habitacion = models.ForeignKey(Habitacion, on_delete=models.CASCADE)
+    cliente = models.ForeignKey('client_manager.Cliente', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.fecha_entrada} {self.fecha_salida} {self.habitacion} {self.cliente}"

@@ -2,7 +2,7 @@ import enum
 
 from django.db import models
 from core.models import Persona
-
+from recepcion_panel.models import GestionReserva
 
 # Create your models here.
 
@@ -16,7 +16,16 @@ class MetodoPago(enum.Enum):
         return [(key.value, key.name) for key in cls]
 
 
-class Cliente(Persona):
+class Cliente(Persona, GestionReserva):
+
+    def hacer_reserva(self):
+        pass
+
+    def cancelar_reserva(self):
+        pass
+
+    def modificar_reserva(self):
+        pass
 
     def __str__(self):
         return f"{self.nombre} {self.apellido}"

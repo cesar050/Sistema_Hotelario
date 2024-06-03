@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'client_manager',
     'hotel_manager',
     'reservation_manager',
+    'recepcion_panel',
 ]
 
 MIDDLEWARE = [
