@@ -4,7 +4,92 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="" />
+=======
+    <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/store.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/css/business-casual.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/intro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Sistema_Hotelario.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sistema_Hotelario.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/BASE/Base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/Habitaciones.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/contacto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/servicios.html" beforeDir="false" />
+    </list>
+>>>>>>> 1e8ee1d (inicio del modelado)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +100,8 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -33,6 +120,9 @@
     &quot;accountId&quot;: &quot;0b4bdcdb-050d-415e-b649-6fffde4a45c1&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -44,6 +134,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
@@ -58,16 +149,58 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Marco&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PROGRAMACION/Sistema_Hotelario/SistemaHotel/core/templates/core&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> 1e8ee1d (inicio del modelado)
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\templates\core" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\jquery" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\font-awesome" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\bootstrap" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$/SistemaHotel/templates" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\templates" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="forms" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+=======
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\templates" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\template" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.base.html">
+    <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/templates/base.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/templates/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 1e8ee1d (inicio del modelado)
       <module name="Sistema_Hotelario" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,12 +209,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SistemaHotel/reservation_manager" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SistemaHotel" />
+>>>>>>> 1e8ee1d (inicio del modelado)
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SistemaHotel/reservation_manager/forms.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SistemaHotel/manage.py" />
+>>>>>>> 1e8ee1d (inicio del modelado)
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,6 +231,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Sistema_Hotelario" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SistemaHotel/SistemaHotel" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.base.html" />
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+>>>>>>> 1e8ee1d (inicio del modelado)
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -109,8 +284,17 @@
       <updated>1717208925502</updated>
       <workItem from="1717208926559" duration="1319000" />
       <workItem from="1717211697147" duration="1677000" />
+<<<<<<< HEAD
       <workItem from="1717462773755" duration="1719000" />
       <workItem from="1717473107959" duration="6168000" />
+=======
+      <workItem from="1717361365081" duration="143000" />
+      <workItem from="1717361511428" duration="7833000" />
+      <workItem from="1717370223360" duration="13000" />
+      <workItem from="1717370434693" duration="7494000" />
+      <workItem from="1717378707211" duration="1081000" />
+      <workItem from="1717382523590" duration="5677000" />
+>>>>>>> 1e8ee1d (inicio del modelado)
     </task>
     <servers />
   </component>
