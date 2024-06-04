@@ -43,7 +43,12 @@ INSTALLED_APPS = [
     'client_manager',
     'hotel_manager',
     'reservation_manager',
+<<<<<<< HEAD
     'recepcion_panel',
+=======
+
+
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
 ]
 
 MIDDLEWARE = [
@@ -61,7 +66,11 @@ ROOT_URLCONF = 'SistemaHotel.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR / 'core/templates'
+=======
+        'DIRS': [BASE_DIR / 'adminHotel/HTML'
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
                  ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -122,8 +131,15 @@ USE_TZ = True
 import os
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
+<<<<<<< HEAD
     os.path.join(BASE_DIR, 'SistemaHotel', 'static')
 ]
+=======
+    os.path.join(BASE_DIR, 'SistemaHotel', 'core/static')
+]
+MEDIA_URL = '/img/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'core/static/img/')
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 

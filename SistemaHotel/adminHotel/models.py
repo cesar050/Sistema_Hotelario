@@ -31,12 +31,21 @@ class Dias(enum.Enum):
 
 
 class Turno(models.Model):
+<<<<<<< HEAD
     dia = models.CharField(max_length=20, choices=Dias.choices())
     turno = models.CharField(max_length=20, choices=TurnoAsignado.choices())
     horaInicio = models.TimeField()
     horaFin = models.TimeField()
 
     def __str__(self):
+=======
+    dia = models.CharField(max_length=10, choices=[(tag.name, tag.value) for tag in Dias])
+    turno = models.CharField(max_length=10, choices=[(tag.name, tag.value) for tag in TurnoAsignado])
+    horaInicio = models.TimeField()
+    horaFin = models.TimeField()
+
+    def _str_(self):
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
         return f"{self.dia} {self.turno} {self.horaInicio} {self.horaFin}"
 
 
@@ -45,29 +54,49 @@ class PersonalHotel(Persona):
     horasTrabajadas = models.FloatField()
     turno = models.ForeignKey(Turno, on_delete=models.CASCADE)
 
+<<<<<<< HEAD
     def __str__(self):
+=======
+    def _str_(self):
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class Administrador(PersonalHotel):
 
+<<<<<<< HEAD
     def __str__(self):
+=======
+    def _str_(self):
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class Recepcionista(PersonalHotel):
 
+<<<<<<< HEAD
     def __str__(self):
+=======
+    def _str_(self):
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class CamareroRestaurante(PersonalHotel):
 
+<<<<<<< HEAD
     def __str__(self):
+=======
+    def _str_(self):
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class CamareroPiso(PersonalHotel):
 
+<<<<<<< HEAD
     def __str__(self):
+=======
+    def _str_(self):
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"

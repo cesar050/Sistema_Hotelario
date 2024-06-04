@@ -19,6 +19,7 @@ class Servicio(admin.ModelAdmin):
     list_display = ['nombre', 'descripcion', 'precio', 'estado']
     list_filter = ['nombre', 'precio', 'estado']
     search_fields = ['nombre', 'precio', 'estado']
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 from reservation_manager.models import*
@@ -30,3 +31,6 @@ admin.site.register(AsignacionReservaHabitacion)
 
 =======
 >>>>>>> b2277ad (ViewsTemplates)
+=======
+
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251

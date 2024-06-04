@@ -70,7 +70,10 @@ class Habitacion(models.Model):
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
 
 class PisoAdmin(admin.ModelAdmin):
     exclude = ('cantidad_habitaciones',)

@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+<<<<<<< HEAD
 
 
 urlpatterns = [
@@ -26,6 +27,12 @@ urlpatterns = [
 
 ]
 =======
+=======
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
     path('', include('adminHotel.urls')),  # Esto es para la ruta raíz
     path('admin/', admin.site.urls),
     path('api/', include('core.urls')),
@@ -34,5 +41,9 @@ urlpatterns = [
     path('api/', include('client_manager.urls')),
     path('api/', include('hotel_manager.urls')),
     path('api/', include('reservation_manager.urls')),
+<<<<<<< HEAD
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 >>>>>>> b2277ad (ViewsTemplates)
+=======
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251

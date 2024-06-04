@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 class Reserva(models.Model):
     fecha_entrada = models.DateField()
@@ -24,6 +25,8 @@ class ServicioExtra(models.Model):
         return f"{self.nombre} {self.precio} {self.descripcion}"
 
 =======
+=======
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
 class Servicio(models.Model):
     nombre = models.CharField(max_length=50)
     descripcion = models.TextField()
@@ -62,7 +65,10 @@ class Reserva(models.Model):
     def calcular_costo(self):
         self.total_costo = self.habitacion.precio * self.numDias
         self.save()
+<<<<<<< HEAD
 >>>>>>> b2277ad (ViewsTemplates)
+=======
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
 
 class AsignacionReservaHabitacion(models.Model):
     reserva = models.ForeignKey(Reserva, on_delete=models.CASCADE)
@@ -70,7 +76,11 @@ class AsignacionReservaHabitacion(models.Model):
 
     def __str__(self):
 <<<<<<< HEAD
+<<<<<<< HEAD
         return f"{self.reserva} {self.habitacion}"
 =======
         return f"{self.reserva}, {self.habitacion}"
 >>>>>>> b2277ad (ViewsTemplates)
+=======
+        return f"{self.reserva}, {self.habitacion}"
+>>>>>>> b2277ada42f3b63703deac7e599c1eeae3e34251
