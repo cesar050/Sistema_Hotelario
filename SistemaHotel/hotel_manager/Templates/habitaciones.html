@@ -1,8 +1,0 @@
-{% for piso in pisos %}
-<h2>Piso {{ piso.numero }}</h2>
-<ul>
-    {% for habitacion in piso.habitaciones %}
-    <li>Habitación {{ habitacion.numero }} - Capacidad: {{ habitacion.capacidad }} - Disponible: {{ habitacion.disponible }}</li>
-    {% endfor %}
-</ul>
-{% endfor %}
