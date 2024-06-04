@@ -1,3 +1,5 @@
+![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522774/c196f7f0-0a1c-4eea-8129-01f5a66516c6)
+
 <<<<<<< HEAD
 #python -m venv venv
 #venv\Scripts\activate
