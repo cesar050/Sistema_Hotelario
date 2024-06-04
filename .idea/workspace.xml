@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/hotel_manager/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/recepcion_panel/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/reservation_manager/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/user_manager/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,12 +27,12 @@
     &quot;assignee&quot;: &quot;MarcoChBuri&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/cesar050/Sistema_Hotelario.git",
-    "accountId": "0b4bdcdb-050d-415e-b649-6fffde4a45c1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/cesar050/Sistema_Hotelario.git&quot;,
+    &quot;accountId&quot;: &quot;0b4bdcdb-050d-415e-b649-6fffde4a45c1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -54,7 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "Python.forms.executor": "Run",
+    "Python.forms.executor": "Debug",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -69,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SistemaHotel/templates" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\templates" />
     </key>
   </component>
@@ -116,6 +110,7 @@
       <workItem from="1717208926559" duration="1319000" />
       <workItem from="1717211697147" duration="1677000" />
       <workItem from="1717462773755" duration="1719000" />
+      <workItem from="1717473107959" duration="6168000" />
     </task>
     <servers />
   </component>
