@@ -9,9 +9,13 @@
 
 Este proyecto es una aplicación web desarrollada con Django. La estructura del proyecto es la siguiente:
 
+## Estructura del Proyecto
+
 - `SistemaHotelario`: Carpeta principal del proyecto.
   - `adminHotel`: Módulo para la gestión de administradores del hotel.
   - `recepcion_panel`: Módulo para el panel de recepción.
+  - `reservation_manager`: Módulo para la gestión de reservas.
+  - `user_manager`: Módulo para la gestión de usuarios.
 
 Cada módulo contiene los siguientes archivos:
 - `models.py`: Define los modelos de datos.
@@ -22,13 +26,7 @@ Cada módulo contiene los siguientes archivos:
 - `apps.py`: Configuración de la aplicación.
 - `urls.py`: Define las rutas URL de la aplicación.
 
-## Vista Previa
-
-La siguiente imagen muestra una vista previa de la aplicación en un navegador web junto al código en un editor de código:
-
-[Imagen aquí]
-
-
+Además, cada módulo puede tener una carpeta `templates` que contiene los archivos HTML para las vistas, y una carpeta `migrations` que contiene los archivos de migración de la base de datos.
 
 
 >>>>>>> f08e6ff9ab6d9039e0de9d32ece98b806d4ebc75
