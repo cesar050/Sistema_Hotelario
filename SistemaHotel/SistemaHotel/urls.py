@@ -19,8 +19,20 @@ from django.urls import path, include
 
 
 urlpatterns = [
+<<<<<<< HEAD
     path('', include('core.urls')),
         path('admin/', admin.site.urls),
         path('api/', include('core.urls')),
 
 ]
+=======
+    path('', include('adminHotel.urls')),  # Esto es para la ruta raíz
+    path('admin/', admin.site.urls),
+    path('api/', include('core.urls')),
+    path('api/', include('adminHotel.urls')),
+    path('api/', include('user_manager.urls')),
+    path('api/', include('client_manager.urls')),
+    path('api/', include('hotel_manager.urls')),
+    path('api/', include('reservation_manager.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> b2277ad (ViewsTemplates)
