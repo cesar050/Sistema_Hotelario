@@ -31,12 +31,12 @@ class Dias(enum.Enum):
 
 
 class Turno(models.Model):
-    dia = models.CharField(max_length=20, choices=Dias.choices())
-    turno = models.CharField(max_length=20, choices=TurnoAsignado.choices())
+    dia = models.CharField(max_length=10, choices=[(tag.name, tag.value) for tag in Dias])
+    turno = models.CharField(max_length=10, choices=[(tag.name, tag.value) for tag in TurnoAsignado])
     horaInicio = models.TimeField()
     horaFin = models.TimeField()
 
-    def __str__(self):
+    def _str_(self):
         return f"{self.dia} {self.turno} {self.horaInicio} {self.horaFin}"
 
 
@@ -45,29 +45,29 @@ class PersonalHotel(Persona):
     horasTrabajadas = models.FloatField()
     turno = models.ForeignKey(Turno, on_delete=models.CASCADE)
 
-    def __str__(self):
+    def _str_(self):
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class Administrador(PersonalHotel):
 
-    def __str__(self):
+    def _str_(self):
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class Recepcionista(PersonalHotel):
 
-    def __str__(self):
+    def _str_(self):
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class CamareroRestaurante(PersonalHotel):
 
-    def __str__(self):
+    def _str_(self):
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
 
 
 class CamareroPiso(PersonalHotel):
 
-    def __str__(self):
+    def _str_(self):
         return f"{self.nombre} {self.apellido} {self.salarioHora} {self.horasTrabajadas}"
