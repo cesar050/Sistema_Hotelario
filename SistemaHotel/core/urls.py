@@ -1,10 +1,8 @@
 from django.urls import path
 from . import views
+from .views import index
 
 urlpatterns = [
-    path('some-route/', views.some_view, name='some-view'),
-    path('', views.home, name="home"),
-    path('about/', views.about, name="about"),
-    path('services/', views.services, name="services"),
-    path('contact/', views.contact, name="contact"),
+    path('agregar_persona_usuario/', views.agregar_persona_usuario, name='agregar_persona_usuario'),
+    path('', index, name='index'),
 ]

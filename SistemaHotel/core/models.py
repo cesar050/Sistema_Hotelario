@@ -26,8 +26,8 @@ class TipoDocumento(enum.Enum):
 class Persona(models.Model):
     nombre = models.CharField(max_length=50)
     apellido = models.CharField(max_length=50)
-    documento = models.CharField(max_length=8, unique=True)
-    telefono = models.CharField(max_length=9)
+    documento = models.CharField(max_length=10, unique=True)
+    telefono = models.CharField(max_length=10)
     email = models.EmailField(unique=True)
     direccion = models.CharField(max_length=100)
     fecha_nacimiento = models.DateField()

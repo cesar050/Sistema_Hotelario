@@ -5,86 +5,239 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/templates/store.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/css/business-casual.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/intro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sistema_Hotelario.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sistema_Hotelario.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/HTML/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/HTML/agrerar_trabajador.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/HTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/HTML/info_trabajador.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/HTML/lista_personal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/client_manager/HTML/dashBoard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/AgregarUsuario.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/about-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/blog-100x100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/carousel-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/carousel-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/destination-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/destination-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/destination-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/destination-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/destination-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/destination-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/package-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/package-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/package-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/package-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/package-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/package-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/testimonial-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/testimonial-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/testimonial-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/testimonial-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/img/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/easing/easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/assets/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/owlcarousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/tempusdominus/css/tempusdominus-bootstrap-4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/tempusdominus/js/moment-timezone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/tempusdominus/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/tempusdominus/js/tempusdominus-bootstrap-4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/mail/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/mail/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/mail/jqBootstrapValidation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_interactions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SistemaHotel/static/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/adminHotel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/adminHotel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/adminHotel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/client_manager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/client_manager/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/SistemaHotel/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/templates/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/adminHotel/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaHotel/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/BASE/Base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/Habitaciones.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/contacto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaHotel/templates/servicios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/css/business-casual.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/client_manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/hotel_manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/reservation_manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/intro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/user_manager/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/img/products-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/static/core/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +247,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Unit Test" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -126,98 +280,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.base.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Marco&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/PROGRAMACION/Sistema_Hotelario/SistemaHotel/core/templates/core&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.AgregarUsuario.html.executor": "Run",
+    "JavaScript Debug.administrador.html.executor": "Run",
+    "JavaScript Debug.base.html.executor": "Run",
+    "JavaScript Debug.dashBoard.html.executor": "Run",
+    "JavaScript Debug.historial_transacciones.html.executor": "Run",
+    "JavaScript Debug.home.html.executor": "Run",
+    "JavaScript Debug.prueba.html.executor": "Run",
+    "Python.manage.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#2 on Marco",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/PROGRAMACION/Sistema_Hotelario/SistemaHotel/static",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\static" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\templates\core" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\jquery" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\font-awesome" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\bootstrap" />
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\templates" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel" />
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\template" />
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\templates" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\adminHotel\HTML" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\SistemaHotel" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\templates\{% static 'img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.base.html">
+  <component name="RunManager" selected="JavaScript Debug.AgregarUsuario.html">
+    <configuration name="AgregarUsuario.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/HTML/AgregarUsuario.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="administrador.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/adminHotel/HTML/administrador.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/templates/base.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/templates/home.html" useBuiltInWebServerPort="true">
+    <configuration name="dashBoard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/client_manager/HTML/dashBoard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sistema_Hotelario" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SistemaHotel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SistemaHotel/manage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Sistema_Hotelario" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SistemaHotel/SistemaHotel" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SistemaHotel/SistemaHotel/urls.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="historial_transacciones.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/client_manager/HTML/historial_transacciones.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.AgregarUsuario.html" />
+        <item itemvalue="JavaScript Debug.administrador.html" />
+        <item itemvalue="JavaScript Debug.dashBoard.html" />
+        <item itemvalue="JavaScript Debug.historial_transacciones.html" />
         <item itemvalue="JavaScript Debug.base.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
-        <item itemvalue="Python.manage" />
-        <item itemvalue="Python.urls" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +370,7 @@
       <workItem from="1717370434693" duration="7494000" />
       <workItem from="1717378707211" duration="1081000" />
       <workItem from="1717382523590" duration="5677000" />
+      <workItem from="1717451079471" duration="20300000" />
     </task>
     <servers />
   </component>
