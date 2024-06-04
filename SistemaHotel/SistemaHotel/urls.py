@@ -27,4 +27,5 @@ urlpatterns = [
     path('api/', include('user_manager.urls')),
     path('api/', include('client_manager.urls')),
     path('api/', include('hotel_manager.urls')),
+    path('api/', include('reservation_manager.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

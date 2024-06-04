@@ -13,6 +13,7 @@ class Hotel(models.Model):
     telefono = models.CharField(max_length=10)
     email = models.EmailField()
     descripcion = models.TextField()
+    numHabitaciones = models.IntegerField()
 
     def __str__(self):
         return f"{self.nombre} {self.direccion} {self.telefono} {self.email} {self.descripcion}"
@@ -23,9 +24,6 @@ class Piso(models.Model):
     cantidad_habitaciones = models.IntegerField()
     hotel = models.ForeignKey(Hotel, on_delete=models.CASCADE)
 
-
-    def __str__(self):
-        return f"{self.numero} {self.cantidad_habitaciones} {self.hotel}"
 
 
 class Categoria(enum.Enum):
@@ -56,16 +54,22 @@ class Habitacion(models.Model):
     categoria = models.CharField(max_length=20, choices=Categoria.choices())
     precio = models.DecimalField(max_digits=10, decimal_places=2)
     estado = models.CharField(max_length=20, choices=Estado.choices())
+    disponible = models.BooleanField(default=True)
 
     def save(self, *args, **kwargs):
-        # Si la habitación es nueva, incrementa la cantidad de habitaciones en el piso
+    # Si la habitación es nueva, incrementa la cantidad de habitaciones en el piso y en el hotel
         if not self.pk:
             self.piso.cantidad_habitaciones += 1
             self.piso.save()
+
+            hotel = self.piso.hotel
+            hotel.numHabitaciones += 1
+            hotel.save()
+
         super().save(*args, **kwargs)
 
-    def __str__(self):
-        return f"{self.numero} {self.capacidad} {self.piso}"
+
+
 
 class PisoAdmin(admin.ModelAdmin):
     exclude = ('cantidad_habitaciones',)
