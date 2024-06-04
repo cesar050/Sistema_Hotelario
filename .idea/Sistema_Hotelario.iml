@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 67d9ed0 (inicio del modelado)
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
@@ -17,11 +23,48 @@
     <orderEntry type="jdk" jdkName="Python 3.12 (Sistema_Hotelario)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
+<<<<<<< HEAD
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+>>>>>>> 67d9ed0 (inicio del modelado)
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />
     <option name="myDocStringFormat" value="Plain" />
   </component>
   <component name="TemplatesService">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
+=======
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+    <option name="TEMPLATE_CONFIGURATION" value="Django" />
+=======
+>>>>>>> 67d9ed0 (inicio del modelado)
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/SistemaHotel/core/templates" />
+      </list>
+    </option>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+=======
+>>>>>>> 67d9ed0 (inicio del modelado)
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
   </component>
 </module>

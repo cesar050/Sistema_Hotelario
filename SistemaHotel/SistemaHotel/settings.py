@@ -43,7 +43,17 @@ INSTALLED_APPS = [
     'client_manager',
     'hotel_manager',
     'reservation_manager',
+<<<<<<< HEAD
+<<<<<<< HEAD
     'recepcion_panel',
+=======
+
+
+>>>>>>> 4c3a679 (sitemaHotel)
+=======
+
+
+>>>>>>> 4c3a679 (sitemaHotel)
 ]
 
 MIDDLEWARE = [
@@ -61,7 +71,19 @@ ROOT_URLCONF = 'SistemaHotel.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        'DIRS': [BASE_DIR / 'adminHotel/HTML'
+=======
+        'DIRS': [BASE_DIR / 'core/templates'
+>>>>>>> 67d9ed0 (inicio del modelado)
+=======
+        'DIRS': [BASE_DIR / 'core/templates'
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+        'DIRS': [BASE_DIR / 'adminHotel/HTML'
+>>>>>>> 4c3a679 (sitemaHotel)
                  ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -119,9 +141,30 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
-
+import os
 STATIC_URL = 'static/'
-
+STATICFILES_DIRS = [
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    os.path.join(BASE_DIR, 'SistemaHotel', 'core/static')
+]
+MEDIA_URL = '/img/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'core/static/img/')
+=======
+    os.path.join(BASE_DIR, 'SistemaHotel', 'static')
+]
+>>>>>>> 67d9ed0 (inicio del modelado)
+=======
+    os.path.join(BASE_DIR, 'SistemaHotel', 'static')
+]
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+    os.path.join(BASE_DIR, 'SistemaHotel', 'core/static')
+]
+MEDIA_URL = '/img/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'core/static/img/')
+>>>>>>> 4c3a679 (sitemaHotel)
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 

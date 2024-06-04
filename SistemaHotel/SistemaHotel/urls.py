@@ -15,12 +15,95 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('hotel/', include('hotel.urls')),
-    path('cliente/', include('cliente.urls')),
-    path('reserva/', include('reserva.urls')),
-    path('quarto/', include('quarto.urls')),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+
+
+urlpatterns = [
+<<<<<<< HEAD
+>>>>>>> 67d9ed0 (inicio del modelado)
+=======
+<<<<<<< HEAD
+>>>>>>> f6d1e94 (ViewsTemplates)
+=======
+
+
+urlpatterns = [
+>>>>>>> 1e8ee1d (inicio del modelado)
+    path('', include('core.urls')),
+        path('admin/', admin.site.urls),
+        path('api/', include('core.urls')),
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 ]
+=======
+=======
+>>>>>>> 4c3a679 (sitemaHotel)
+=======
+]
+=======
+>>>>>>> f6d1e94 (ViewsTemplates)
+=======
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+>>>>>>> 4c3a679 (sitemaHotel)
+    path('', include('adminHotel.urls')),  # Esto es para la ruta raíz
+    path('admin/', admin.site.urls),
+    path('api/', include('core.urls')),
+    path('api/', include('adminHotel.urls')),
+    path('api/', include('user_manager.urls')),
+    path('api/', include('client_manager.urls')),
+    path('api/', include('hotel_manager.urls')),
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    path('api/', include('reservation_manager.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> b2277ad (ViewsTemplates)
+=======
+]
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> 4c3a679 (sitemaHotel)
+=======
+    path('api/', include('reservation_manager.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> b2277ad (ViewsTemplates)
+=======
+]
+>>>>>>> 67d9ed0 (inicio del modelado)
+=======
+    path('api/', include('reservation_manager.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> b2277ad (ViewsTemplates)
+>>>>>>> f6d1e94 (ViewsTemplates)
+=======
+]
+>>>>>>> 1e8ee1d (inicio del modelado)
+=======
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> 4c3a679 (sitemaHotel)
+=======
+    path('api/', include('reservation_manager.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+>>>>>>> b2277ad (ViewsTemplates)
