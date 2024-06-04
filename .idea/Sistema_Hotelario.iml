@@ -7,7 +7,7 @@
   <component name="TemplatesService">
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/SistemaHotel/core/templates" />
+        <option value="$MODULE_DIR$/.venv/templates" />
       </list>
     </option>
   </component>

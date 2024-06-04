@@ -62,7 +62,7 @@ ROOT_URLCONF = 'SistemaHotel.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'adminHotel/HTML'
+        'DIRS': [BASE_DIR / 'core/HTML'
                  ],
         'APP_DIRS': True,
         'OPTIONS': {
