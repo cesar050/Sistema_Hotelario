@@ -7,7 +7,18 @@
     <list default="true" id="0d802100-5630-4de5-8c3c-821943b40ae0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaHotel/client_manager/HTML/dashBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/client_manager/HTML/dashBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/destination.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/destination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/reservas.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/reservas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/HTML/testimonial.html" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/HTML/testimonial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaHotel/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaHotel/core/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +72,12 @@
     "JavaScript Debug.home.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.prueba.html.executor": "Run",
+    "JavaScript Debug.service.html.executor": "Run",
     "Python.manage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#2 on Marco",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/PROGRAMACION/Sistema_Hotelario/SistemaHotel/Templates/html",
+    "last_opened_file_path": "D:/PROGRAMACION/Sistema_Hotelario/SistemaHotel/client_manager/HTML",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -77,28 +89,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\client_manager\HTML" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\Templates\html" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\static" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\templates\core" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\jquery" />
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\static\core\vendor\font-awesome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core\HTML" />
+      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\client_manager\HTML" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\core" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\SistemaHotel\HTML" />
       <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\Templates" />
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel" />
-      <recent name="D:\PROGRAMACION\Sistema_Hotelario\SistemaHotel\adminHotel\HTML" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.home.html">
+  <component name="RunManager" selected="JavaScript Debug.service.html">
     <configuration name="AgregarUsuario.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/HTML/AgregarUsuario.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="administrador.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/adminHotel/HTML/administrador.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="dashBoard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/client_manager/HTML/dashBoard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/Templates/html/home.html" useBuiltInWebServerPort="true">
@@ -107,13 +116,16 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/adminHotel/HTML/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="service.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sistema_Hotelario/SistemaHotel/core/HTML/service.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.service.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.AgregarUsuario.html" />
         <item itemvalue="JavaScript Debug.administrador.html" />
-        <item itemvalue="JavaScript Debug.dashBoard.html" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +155,7 @@
       <workItem from="1717382523590" duration="5677000" />
       <workItem from="1717451079471" duration="20300000" />
       <workItem from="1717476285822" duration="16000" />
-      <workItem from="1717476304152" duration="5853000" />
+      <workItem from="1717476304152" duration="8987000" />
     </task>
     <servers />
   </component>

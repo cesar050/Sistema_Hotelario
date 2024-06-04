@@ -25,3 +25,12 @@ def index(request):
         'variable': 'valor',  # Puedes pasar variables al template si es necesario
     }
     return render(request, 'index.html', context)
+def reservas(request):
+    # Aquí puedes agregar cualquier lógica adicional que necesites antes de renderizar el template
+    context = {
+        'variable': 'valor',  # Puedes pasar variables al template si es necesario
+    }
+    return render(request, 'reservas.html', context)
+
+def home(request):
+    return render(request, 'home.html')
