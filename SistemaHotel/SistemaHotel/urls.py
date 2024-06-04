@@ -20,11 +20,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from SistemaHotel import views
 urlpatterns = [
-    path('', include('core.urls')),
-    path('admin/', include('adminHotel.urls')),  #
-    path('api/', include('core.urls')),
-    path('api/', include('user_manager.urls')),
-    path('api/', include('client_manager.urls')),
-    path('api/', include('hotel_manager.urls')),
+    path('', include('adminHotel.urls')),
+    path('admin/', admin.site.urls),
+    path('administracion/', include('adminHotel.urls')),  #
+    path('vista/', include('core.urls')),
+    path('user/', include('user_manager.urls')),
+    path('client/', include('client_manager.urls')),
+    path('hotel/', include('hotel_manager.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
