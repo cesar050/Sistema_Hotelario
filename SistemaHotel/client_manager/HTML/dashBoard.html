@@ -1,21 +1,26 @@
-  <h1>Historial de Transacciones</h1>
+    <h1>Listado de Clientes y Historiales</h1>
+{}
+    <h2>Clientes</h2>
+    <ul>
+        {% for cliente in clientes %}
+        <li>{{ cliente.nombre }} {{ cliente.apellido }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Historiales</h2>
     <table border="1">
-        <thead>
-            <tr>
-                <th>Fecha</th>
-                <th>Monto</th>
-                <th>Método de Pago</th>
-                <th>Cliente</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for transaccion in historial %}
-            <tr>
-                <td>{{ transaccion.fecha }}</td>
-                <td>{{ transaccion.monto }}</td>
-                <td>{{ transaccion.get_metodo_pago_display }}</td>
-                <td>{{ transaccion.cliente }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
+        <tr>
+            <th>Fecha</th>
+            <th>Monto</th>
+            <th>Método de Pago</th>
+            <th>Cliente</th>
+        </tr>
+        {% for historial in historiales %}
+        <tr>
+            <td>{{ historial.fecha }}</td>
+            <td>{{ historial.monto }}</td>
+            <td>{{ historial.get_metodo_pago_display }}</td>
+            <td>{{ historial.cliente.nombre }} {{ historial.cliente.apellido }}</td>
+        </tr>
+        {% endfor %}
     </table>
