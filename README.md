@@ -1,3 +1,4 @@
+CORRER LA RAMA MARCO
 INSTALAR requeriment.txt con el comando 
 pip install -r requirements.txt
 estando en el documento donde se encuantre el manage.py
