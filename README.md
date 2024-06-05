@@ -53,13 +53,21 @@ Una vez terminado tendran esto.
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/18499d44-1dbb-4d07-8b80-a4ed69270d85)
 
 Le dan a close y ahora van al Pycharm.
-4.  Una vez dentro de Pycharm actualizan el Python interprete, luego de eso en la terminal escriben el comando, pip install -r requerimentes.txt les debe salir de la siguiente manera
+4.  Una vez dentro de Pycharm actualizan el Python interprete 
+
+![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/7f2d0ee3-c44c-4466-bf12-074b43adfc6a)
+
+5.  Seleccionan uno y ya estaria cambiado.
+
+![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/9c51c0f7-fdaa-483e-9a4b-09a658a1c69c)
+
+6.  luego de eso en la terminal escriben el comando, pip install -r requerimentes.txt les debe salir de la siguiente manera
 
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/028a18f7-117c-4d71-a2c5-eac3064a7ca5)
 
-5.  Una vez hecho eso escriben en la terminal cd SistemaHotelario y finalmente, en la terminal nuevamente python manage.py runserver, les debe quedar tal que asi
+7.  Una vez hecho eso escriben en la terminal cd SistemaHotelario y finalmente, en la terminal nuevamente python manage.py runserver, les debe quedar tal que asi
 
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/a24dcbac-776c-4552-ba85-c9a286e49745)
 
-6.  Finalmente acceden con la ip a http://127.0.0.1:8000/admin, el super usuario es marco1 clave: 1234, una vez dentro podran acceder y comprobar que todo funciona correctamente, al igual que pueden acceder a la diferentes secciones de las siguientes maneras, http://127.0.0.1:8000/vista/, http://127.0.0.1:8000/administracion/ y otras mas.
+8.  Finalmente acceden con la ip http://127.0.0.1:8000/admin, el super usuario es: marco1, clave: 1234, una vez dentro podran acceder y comprobar que todo funciona correctamente, al igual que pueden acceder a la diferentes secciones de las siguientes maneras, http://127.0.0.1:8000/vista/, http://127.0.0.1:8000/administracion/ y otras mas.
 >>>>>>> f08e6ff9ab6d9039e0de9d32ece98b806d4ebc75
