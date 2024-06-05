@@ -4,13 +4,6 @@ pip install -r requirements.txt
 estando en el documento donde se encuantre el manage.py
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522774/c196f7f0-0a1c-4eea-8129-01f5a66516c6)
 
-<<<<<<< HEAD
-#python -m venv venv
-#venv\Scripts\activate
-#pip install -r requirements.txt
-=======
-![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/d9c49b00-f2eb-4cfb-ab22-aa122c9cd978)
-
 # Sistema Hotelario
 
 Este proyecto es una aplicación web desarrollada con Django. La estructura del proyecto es la siguiente:
