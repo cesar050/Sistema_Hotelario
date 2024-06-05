@@ -1,32 +1,23 @@
-import enum
-
 from django.db import models
-from core.models import Persona
+from core.models import Persona, CuentaUsuario
+
 
 
 # Create your models here.
 
-class MetodoPago(enum.Enum):
-    EFECTIVO = "EFECTIVO"
-    TARJETA = "TARJETA"
-    TRANSFERENCIA = "TRANSFERENCIA"
-
-    @classmethod
-    def choices(cls):
-        return [(key.value, key.name) for key in cls]
-
-
 class Cliente(Persona):
 
     def __str__(self):
-        return f"{self.nombre} {self.apellido}"
+        return f'{self.nombre} {self.apellido}'
 
+class CuentaCliente(CuentaUsuario):
+    cliente = models.OneToOneField(Cliente, on_delete=models.CASCADE, related_name='usuario_cliente')
 
-class Historial(models.Model):
-    fecha = models.DateField()
-    monto = models.DecimalField(max_digits=10, decimal_places=2)
-    metodo_pago = models.CharField(max_length=20, choices=MetodoPago.choices())
-    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
-
-    def __str__(self):
-        return f"{self.fecha} {self.monto} {self.metodo_pago} {self.cliente}"
+    def save(self, *args, **kwargs):
+        if not self.pk:  # Si es un nuevo usuario
+            if self.cliente:
+                self.email = self.cliente.email
+                self.first_name = self.cliente.nombre
+                self.last_name = self.cliente.apellido
+                # Aquí puedes copiar más atributos según sea necesario
+        super().save(*args, **kwargs)

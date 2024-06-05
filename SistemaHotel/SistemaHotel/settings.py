@@ -35,14 +35,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'adminHotel.apps.AdminhotelConfig',
+    #'adminHotel',
     'core',
     'rest_framework',
     'rest_framework.authtoken',
-    'user_manager',
+    #'user_manager',
     'client_manager',
-    'hotel_manager',
-    'reservation_manager',
+    #'hotel_manager',
+    #'reservation_manager',
 
 
 ]

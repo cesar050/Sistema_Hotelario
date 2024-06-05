@@ -1,6 +1,15 @@
-from django.shortcuts import render
-from .models import Historial
+from django.shortcuts import render, redirect
+from .forms import RegistroForm
 
-def historial_transacciones(request):
-    historiales = Historial.objects.all()
-    return render(request, 'dashBoard.html', {'historial': historiales})
+
+def registro_view(request):
+    if request.method == 'POST':
+        form = RegistroForm(request.POST)
+        if form.is_valid():
+            form.save()
+            # Redirigir a alguna página de éxito o a donde desees
+            return redirect('confirmacion.html')
+    else:
+        form = RegistroForm()
+    return render(request, 'registro.html', {'form': form})
+

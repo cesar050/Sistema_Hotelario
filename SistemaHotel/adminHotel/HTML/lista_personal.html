@@ -1,7 +1,0 @@
-<h1>Lista de Trabajadores</h1>
-
-{% for trabajador in trabajadores %}
-<h2><a href="{% url 'info_workers' trabajador.id %}">{{ trabajador.nombre }} {{ trabajador.apellido }}</a></h2>
-<p>Salario por hora: {{ trabajador.salarioHora }}</p>
-<!-- Puedes agregar más campos aquí si tu modelo PersonalHotel tiene más campos -->
-{% endfor %}

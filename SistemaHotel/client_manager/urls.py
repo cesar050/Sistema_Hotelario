@@ -1,7 +1,6 @@
 from django.urls import path
-from . import views
+from .views import registro_view
 
 urlpatterns = [
-    path('historial/', views.historial_transacciones, name='historial_transacciones'),
+    path('registro/', registro_view, name='registro'),
 ]
-# Compare this snippet from SistemaHotel/hotel_manager/urls.py:
