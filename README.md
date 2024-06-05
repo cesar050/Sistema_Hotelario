@@ -39,6 +39,7 @@ Metodos para instalar nuestro programa.
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/6cb54ef2-b5e3-4848-841a-c18006029158)
 
 Link de descarga https://www.python.org/getit/
+
 2.  Una vez descargado, hacen doble click y seleccionan lo que se ve en la imagen.
 
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/2d3842d6-929a-429f-a49a-69900d20c2f7)
