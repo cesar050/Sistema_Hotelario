@@ -54,6 +54,7 @@ Una vez terminado tendran esto.
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/18499d44-1dbb-4d07-8b80-a4ed69270d85)
 
 Le dan a close y ahora van al Pycharm.
+
 4.  Una vez dentro de Pycharm actualizan el Python interprete 
 
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/7f2d0ee3-c44c-4466-bf12-074b43adfc6a)
