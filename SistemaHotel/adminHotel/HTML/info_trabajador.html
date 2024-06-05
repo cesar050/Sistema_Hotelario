@@ -1,3 +1,6 @@
+{% extends 'index.html' %}
+
+{% block content %}
 <h1>Información del Trabajador</h1>
 
 <p>Nombre: {{ trabajador.nombre }}</p>
@@ -19,3 +22,6 @@
     {{ turno_form.as_p }}
     <button type="submit">Asignar</button>
 </form>
+
+
+{% endblock %}

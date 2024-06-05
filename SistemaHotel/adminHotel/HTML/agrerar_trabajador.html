@@ -1,7 +1,9 @@
 <head>
     <title>Formulario de Trabajador</title>
 </head>
+{% extends 'index.html' %}
 
+{% block content %}
 <h1>Formulario de Trabajador</h1>
 
 <form method="post">
@@ -9,3 +11,4 @@
     {{ form.as_p }}
     <button type="submit">Guardar</button>
 </form>
+{% endblock %}

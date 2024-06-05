@@ -1,3 +1,6 @@
+{% extends 'index.html' %}
+
+{% block content %}
 <h1>Lista de Trabajadores</h1>
 
 {% for trabajador in trabajadores %}
@@ -5,3 +8,5 @@
 <p>Salario por hora: {{ trabajador.salarioHora }}</p>
 <!-- Puedes agregar más campos aquí si tu modelo PersonalHotel tiene más campos -->
 {% endfor %}
+
+{% endblock %}

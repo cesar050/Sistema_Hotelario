@@ -2,30 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>adminsashboard</title>
-          <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administrativo</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Custom Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #007bff;
+            color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 20px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #cce5ff;
+        }
+
+        /* Estilos específicos para el botón de Inicio */
+        nav a:first-child {
+            background-color: #28a745; /* Cambia el color de fondo */
+            padding: 10px 15px; /* Ajusta el relleno */
+            border-radius: 5px; /* Agrega bordes redondeados */
+            transition: background-color 0.3s ease; /* Agrega transición de color de fondo */
+        }
+
+        nav a:first-child:hover {
+            background-color: #218838; /* Cambia el color de fondo al pasar el ratón por encima */
+        }
+
+        @media only screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
     <nav>
-        <a href="{% url 'add_worker' %}">Agregar trabajador</a>
-        <a href="info_workers">informacionTrabajador</a>
-        <a href="{% url 'list_workers' %}">listaTrabajador</a>
+        <h1>Panel Administrativo</h1>
+        <div>
+            <a href="{% url 'admin_dashboard' %}">Inicio</a>
+            <a href="{% url 'add_worker' %}">Agregar Trabajador</a>
+            <a href="{% url 'list_workers' %}">Lista de Trabajadores</a>
+        </div>
     </nav>
+{% block content %} {% endblock %}
+
 </body>
 </html>
