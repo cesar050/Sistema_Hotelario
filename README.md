@@ -39,15 +39,25 @@ Metodos para instalar nuestro programa.
 2.  ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/6cb54ef2-b5e3-4848-841a-c18006029158)
 Link de descarga https://www.python.org/getit/
 Una vez descargado, hacen doble click y seleccionan lo que se ve en la imagen.
+
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/2d3842d6-929a-429f-a49a-69900d20c2f7)
+
 Una vez selecionnado eso le dan click a Install Now y lo tendran cargando asi.
+
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/3bafe55e-5202-4fb8-90ac-ab3c9edaa07f)
+
 Una vez terminado tendran esto.
+
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/18499d44-1dbb-4d07-8b80-a4ed69270d85)
+
 Le dan a close y ahora van al Pycharm.
 Una vez dentro de Pycharm actualizan el Python interprete, luego de eso en la terminal escriben el comando, pip install -r requerimentes.txt les debe salir de la siguiente manera
+
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/028a18f7-117c-4d71-a2c5-eac3064a7ca5)
+
 Una vez hecho eso escriben en la terminal cd SistemaHotelario y finalmente, en la terminal nuevamente python manage.py runserver, les debe quedar tal que asi
+
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522713/a24dcbac-776c-4552-ba85-c9a286e49745)
+
 Finalmente acceden con la ip a http://127.0.0.1:8000/admin, el super usuario es marco1 clave: 1234, una vez dentro podran acceder y comprobar que todo funciona correctamente, al igual que pueden acceder a la diferentes secciones de las siguientes maneras, http://127.0.0.1:8000/vista/, http://127.0.0.1:8000/administracion/ y otras mas.
 >>>>>>> f08e6ff9ab6d9039e0de9d32ece98b806d4ebc75
