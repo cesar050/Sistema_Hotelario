@@ -66,3 +66,8 @@ Le dan a close y ahora van al Pycharm.
 
 8.  Finalmente acceden con la ip http://127.0.0.1:8000/admin, el super usuario es: marco1, clave: 1234, una vez dentro podran acceder y comprobar que todo funciona correctamente, al igual que pueden acceder a la diferentes secciones de las siguientes maneras, http://127.0.0.1:8000/vista/, http://127.0.0.1:8000/administracion/ y otras mas.
 >>>>>>> f08e6ff9ab6d9039e0de9d32ece98b806d4ebc75
+
+RESUMEN DE COMANDOS
+pip install -r requerimentes.txt
+cd SistemaHotelario
+python manage.py runserver
