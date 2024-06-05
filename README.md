@@ -1,6 +1,6 @@
 CORRER LA RAMA MARCO
-INSTALAR requeriment.txt con el comando 
-pip install -r requirements.txt
+Primer paso INSTALAR requeriment.txt con el comando 
+#### pip install -r requirements.txt
 estando en el documento donde se encuantre el manage.py
 ![image](https://github.com/cesar050/Sistema_Hotelario/assets/166522774/c196f7f0-0a1c-4eea-8129-01f5a66516c6)
 
