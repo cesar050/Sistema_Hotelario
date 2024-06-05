@@ -68,6 +68,9 @@ Le dan a close y ahora van al Pycharm.
 >>>>>>> f08e6ff9ab6d9039e0de9d32ece98b806d4ebc75
 
 RESUMEN DE COMANDOS
+
 pip install -r requerimentes.txt
+
 cd SistemaHotelario
+
 python manage.py runserver
